@@ -9,4 +9,6 @@ import lombok.*;
 @ToString
 public class UserRequestModel {
     private Integer id;
+    private String name;
+    private String email;
 }
